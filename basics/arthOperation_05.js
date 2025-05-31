@@ -25,3 +25,18 @@ console.log(+"")// 0 as output
 
 let num1, num2, num3
 num1 = num2 = num3 = 2+2 // is allowed 
+
+console.log("Comparision starts here")
+// for comparing data type should be same for predictable output
+
+console.log("2" > 1) //true
+console.log("02" > 1) //true
+
+// unpredictable output it happens due to null converts to NaN or 0 which is unpredictable
+console.log(null > 0) // false
+console.log(null == 0) // false
+console.log(null >= 0) // true 
+console.log(null === 0) // false  it is strict check it will not make the conversion data type 
+
+//undefined give false 
+
