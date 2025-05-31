@@ -13,7 +13,7 @@
  type    => range
 
  primitive data types 
- These types are typically built into the language and are used to represent simple values
+ These types are typically built into the language and are used to represent simple values and changes are made on their copies
  Number => 2 to power 53
  bigint
  boolean => larger value than int
