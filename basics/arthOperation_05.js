@@ -39,4 +39,3 @@ console.log(null >= 0) // true
 console.log(null === 0) // false  it is strict check it will not make the conversion data type 
 
 //undefined give false 
-
